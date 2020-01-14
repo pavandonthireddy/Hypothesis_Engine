@@ -1,0 +1,13 @@
+Generation:
+0
+
+Phenotype:
+(ema((1/((compress((covariance((covariance((center(Low,5)),(corr(Open,Low,20)),10)),(scale((1/(High)),20)),20)),20)))),15))
+
+Genotype:
+[97121, 282, 39997, 96986, 5515, 29265, 24947, 54895, 74156, 49410, 787, 67501, 81005, 82671, 77386, 65602, 47380, 53839, 39873, 3515, 68434, 88587, 10019, 57916, 34157, 59334, 38596, 88256, 84532, 76182, 58089, 83789, 6936, 21640, 50547, 50546, 62531, 4243, 41377, 55655, 88123, 58737, 69777, 31806, 2680, 60779, 79576, 58708, 7789]
+Tree:
+(<expr> ( (<fopbi> ema) ( (<expr> ( (<fopun> 1/) ( (<expr> ( (<fopbi> compress) ( (<expr> ( (<foptr> covariance) ( (<expr> ( (<foptr> covariance) ( (<expr> ( (<fopbi> center) ( (<expr> (<var> Low)) , (<day> 5) ))) , (<expr> ( (<foptr> corr) ( (<expr> (<var> Open)) , (<expr> (<var> Low)) , (<day> 20) ))) , (<day> 10) ))) , (<expr> ( (<fopbi> scale) ( (<expr> ( (<fopun> 1/) ( (<expr> (<var> High)) ))) , (<day> 20) ))) , (<day> 20) ))) , (<day> 20) ))) ))) , (<day> 15) )))
+
+Fitness:
+0.18162263748140628

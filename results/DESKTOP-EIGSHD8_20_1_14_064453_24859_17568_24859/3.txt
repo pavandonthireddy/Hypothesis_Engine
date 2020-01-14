@@ -1,0 +1,13 @@
+Generation:
+3
+
+Phenotype:
+(minval(Close,15))
+
+Genotype:
+[56911, 73291, 89419, 44723, 79302, 93845, 84278]
+Tree:
+None
+
+Fitness:
+nan

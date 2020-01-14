@@ -1,0 +1,13 @@
+Generation:
+5
+
+Phenotype:
+None
+
+Genotype:
+[56911, 73291, 80992, 44723, 79302, 93845, 84278]
+Tree:
+None
+
+Fitness:
+nan

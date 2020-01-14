@@ -1,0 +1,13 @@
+Generation:
+2
+
+Phenotype:
+None
+
+Genotype:
+[92543, 17932, 93042, 4211, 51382, 93845, 84278]
+Tree:
+None
+
+Fitness:
+nan
