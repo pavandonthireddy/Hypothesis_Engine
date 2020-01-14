@@ -25,15 +25,15 @@ params = {
         'RUNS': 1,
 
         # Class of problem
-        'FITNESS_FUNCTION': "supervised_learning.regression",
+        'FITNESS_FUNCTION': "trading_fitness.regression",
 
         # Select problem dataset
-        'DATASET_TRAIN': "Vladislavleva4/Train.txt",
+        'DATASET_TRAIN': None,
         'DATASET_TEST': None,
         'DATASET_DELIMITER': None,
 
         # Set grammar file
-        'GRAMMAR_FILE': "supervised_learning/Vladislavleva4.bnf",
+        'GRAMMAR_FILE': "trading_grammar/Vladislavleva4.bnf",
 
         # Set the number of depths permutations are calculated for
         # (starting from the minimum path of the grammar).
@@ -118,11 +118,13 @@ params = {
         'VERBOSE': False,
         # Use this to prevent anything being printed to the command line.
         'SILENT': False,
+        
+        'SAVE_STEP': True,
 
         # SAVING
         # Save the phenotype of the best individual from each generation. Can
         # generate a lot of files. DEBUG must be False.
-        'SAVE_ALL': False,
+        'SAVE_ALL': True,
         # Save a plot of the evolution of the best fitness result for each
         # generation.
         'SAVE_PLOTS': True,

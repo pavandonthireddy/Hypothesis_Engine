@@ -10,9 +10,9 @@ import pandas as pd
 from fitness.expression import *
 import math as mth
 
-start_date = '2010-01-01'
+start_date = '2004-01-01'
 end_date = '2018-11-15'
-datasets_address = "C:\\Users\\Pavan\\Valkyrie\\engine\\expt\\CSV_Datasets\\"
+datasets_address = "C:\\Users\Pavan\\Valkyrie\\GE\Hypothesis Engine\\datasets\\Engine_Datasets\\"
 tickers_file_name = datasets_address+'Final ticker list.xlsx'
 tickers_column_name ='Ticker'
 variables_file_name = datasets_address+'Variable_list.xlsx'
